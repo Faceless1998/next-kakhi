@@ -1,16 +1,16 @@
-import "@/components/navbar/navbar.css"
-import Link from "next/link"
 import Links from "./links/Links";
+import styles from "./navbar.module.css";
 
-const Navbar = () =>{
-    
-    return(
+const Navbar = () => {
+  return (
+    <div className="navbar">
+      <div className={styles.container}>
+        <div className={styles.logo}>Logo</div>
         <div>
-            <div>Logo</div>
-            <div>
-               <Links />
-            </div>
+          <Links />
         </div>
-    )
-}
+      </div>
+    </div>
+  );
+};
 export default Navbar;

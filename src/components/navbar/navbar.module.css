@@ -1,0 +1,13 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+}

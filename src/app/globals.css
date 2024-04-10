@@ -23,6 +23,7 @@ a{
 }
 
 .container{
+    background-color: aquamarine;
     width: 1536px;
     margin: auto;
     padding-left: 50px;
@@ -31,4 +32,4 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+} 
