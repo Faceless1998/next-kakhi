@@ -8,7 +8,7 @@ const NavLinks = ({items}) =>{
 const pathName = usePathname();
 
     return(
-            <Link href={items.path} key={items.title}  className={`${styles.container} ${pathName === items.title && styles.active}`}>
+            <Link href={items.path} className={`${styles.container} ${pathName === items.path && styles.active}`}>
                 {items.title}
             </Link>
     )
